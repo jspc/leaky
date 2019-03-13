@@ -4,7 +4,8 @@
   "description": "Memory Leak App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "jspc",
   "license": "MIT",
   "dependencies": {
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "memwatch-next": "^0.3.0"
   }
 }
